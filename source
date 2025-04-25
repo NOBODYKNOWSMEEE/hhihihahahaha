@@ -1,12 +1,12 @@
 --[[
 
-Hakus
-By Hakus
+ArrayField Interface Suite
+by Meta
 
-Original by HAKuuu
+Original by Sirius
 
 -------------------------------
-Haku guter Pro Gamer
+Arrays  | Designing + Programming + New Features
 
 ]]
 
@@ -27,7 +27,7 @@ local ArrayFieldLibrary = {
 			TextColor = Color3.fromRGB(240, 240, 240),
 
 			Background = Color3.fromRGB(25, 25, 25),
-			Topbar = Color3.fromRGB(163, 162, 165),
+			Topbar = Color3.fromRGB(34, 34, 34),
 			Shadow = Color3.fromRGB(20, 20, 20),
 
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
@@ -66,7 +66,7 @@ local ArrayFieldLibrary = {
 			TextColor = Color3.fromRGB(50, 50, 50), -- i need to make all text 240, 240, 240 and base gray on transparency not color to do this
 
 			Background = Color3.fromRGB(255, 255, 255),
-			Topbar = Color3.fromRGB(163, 162, 165),
+			Topbar = Color3.fromRGB(217, 217, 217),
 			Shadow = Color3.fromRGB(223, 223, 223),
 
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
