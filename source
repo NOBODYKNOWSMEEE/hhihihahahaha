@@ -1,12 +1,12 @@
 --[[
 
-ArrayField Interface Suite
-by Meta
+UI von Haku
+By Haku dem smenschen
 
-Original by Sirius
+Original wurde es von Smenschen gemacht!
 
 -------------------------------
-Arrays  | Designing + Programming + New Features
+ich weiß ncie oder
 
 ]]
 
@@ -27,22 +27,22 @@ local ArrayFieldLibrary = {
 			TextColor = Color3.fromRGB(240, 240, 240),
 
 			Background = Color3.fromRGB(25, 25, 25),
-			Topbar = Color3.fromRGB(34, 34, 34),
+			Topbar = Color3.fromRGB(163, 162, 165),
 			Shadow = Color3.fromRGB(20, 20, 20),
 
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
 			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
 
 			TabBackground = Color3.fromRGB(80, 80, 80),
-			TabStroke = Color3.fromRGB(85, 85, 85),
+			TabStroke = Color3.fromRGB(163, 162, 165),
 			TabBackgroundSelected = Color3.fromRGB(210, 210, 210),
 			TabTextColor = Color3.fromRGB(240, 240, 240),
 			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
 
 			ElementBackground = Color3.fromRGB(35, 35, 35),
-			ElementBackgroundHover = Color3.fromRGB(40, 40, 40),
+			ElementBackgroundHover = Color3.fromRGB(163, 162, 165),
 			SecondaryElementBackground = Color3.fromRGB(25, 25, 25), -- For labels and paragraphs
-			ElementStroke = Color3.fromRGB(50, 50, 50),
+			ElementStroke = Color3.fromRGB(163, 162, 165),
 			SecondaryElementStroke = Color3.fromRGB(40, 40, 40), -- For labels and paragraphs
 
 			SliderBackground = Color3.fromRGB(43, 105, 159),
@@ -59,7 +59,7 @@ local ArrayFieldLibrary = {
 
 			InputBackground = Color3.fromRGB(30, 30, 30),
 			InputStroke = Color3.fromRGB(65, 65, 65),
-			PlaceholderColor = Color3.fromRGB(178, 178, 178)
+			PlaceholderColor = Color3.fromRGB(163, 162, 165)
 		},
 		Light = {
 			TextFont = "Gotham",  -- Default will use the various font faces used across ArrayField
@@ -67,7 +67,7 @@ local ArrayFieldLibrary = {
 
 			Background = Color3.fromRGB(255, 255, 255),
 			Topbar = Color3.fromRGB(217, 217, 217),
-			Shadow = Color3.fromRGB(223, 223, 223),
+			Shadow = Color3.fromRGB(163, 162, 165),
 
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
 			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
@@ -79,7 +79,7 @@ local ArrayFieldLibrary = {
 			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
 
 			ElementBackground = Color3.fromRGB(198, 198, 198),
-			ElementBackgroundHover = Color3.fromRGB(230, 230, 230),
+			ElementBackgroundHover = Color3.fromRGB(163, 162, 165),
 			SecondaryElementBackground = Color3.fromRGB(136, 136, 136), -- For labels and paragraphs
 			ElementStroke = Color3.fromRGB(180, 199, 97),
 			SecondaryElementStroke = Color3.fromRGB(40, 40, 40),  --For labels and paragraphs
@@ -256,7 +256,7 @@ function BoolToText(Bool)
 end
 
 local function FadeDescription(Infos,type,Out:boolean?)
-	local Size = UDim2.fromOffset(230,275)
+	local Size = UDim2.fromOffset(330,275)
 	local Transparency = 0
 	local WaitTime = .05
 	if Out then
